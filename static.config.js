@@ -6,13 +6,12 @@ import { ServerStyleSheet } from 'styled-components'
 import chokidar from 'chokidar'
 import reload from 'require-reload'
 
-chokidar.watch('./docs').on('all', () => reloadRoutes())
+chokidar.watch('./docs').on('all', () => reloadRoutes());
 
-const repoName = 'UNO Documentation' // Change this
-const repo = 'imdaveead/uno-docs' // Change this
+const repoName = 'UNO Documentation';
+const repo = 'imdaveead/uno-docs';
 const repoURL = `https://github.com/${repo}`;
 
-// No need to touch any of this, unless you want to.
 export default {
   getSiteData: () => ({
     menu: reload("./docs/navigation").default,
@@ -44,8 +43,7 @@ export default {
             component: 'src/containers/Doc',
             getData: () => ({
               markdown: fs.readFileSync(path.resolve(page.markdownSrc), 'utf8'),
-              editPath:
-                repoURL + path.join('/blob/master/', page.markdownSrc),
+              editPath: repoURL + path.join('/blob/master/', page.markdownSrc),
               title: page.title,
             }),
           })
@@ -59,16 +57,16 @@ export default {
     ]
   },
   renderToHtml: (render, Comp, meta) => {
-    const sheet = new ServerStyleSheet()
-    const html = render(sheet.collectStyles(<Comp />))
-    meta.styleTags = sheet.getStyleElement()
-    return html
+    const sheet = new ServerStyleSheet();
+    const html = render(sheet.collectStyles(<Comp />));
+    meta.styleTags = sheet.getStyleElement();
+    return html;
   },
   Document: class CustomHtml extends Component {
     render () {
       const {
         Html, Head, Body, children, renderMeta,
-      } = this.props
+      } = this.props;
 
       return (
         <Html>
@@ -84,7 +82,7 @@ export default {
           </Head>
           <Body>{children}</Body>
         </Html>
-      )
+      );
     }
   },
 }
