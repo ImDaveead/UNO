@@ -42,6 +42,7 @@ const renderers = {
   h4: Header('h4'),
   h5: Header('h5'),
   h6: Header('h6'),
+  br: () => null,
 }
 
 class Markdown extends PureComponent {
