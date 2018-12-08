@@ -56,7 +56,8 @@ is successful, the challenged player draws four cards instead; if it is wrong, t
 ### Scoring
 There are two ways of playing, a single round with one winner, or playing multiple rounds, playing up a a certain 
 score, usually 500 by adding your score at the end of each match, and whoever reaches the target score, is eliminated 
-from the game, and the rest of the players play. \\
+from the game, and the rest of the players play.
+
 The number cards have a value of their face number, Skips, Reverses, Draw 2s count as 20, and Wilds and Draw 4s count 
 as 50. If a player goes out of a Draw 4 or a Draw 2, the next player must draw the cards before counting points.
 
