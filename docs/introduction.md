@@ -1,12 +1,10 @@
 # Introduction
-
 ## In This Document
 In this document we will refer to different things as different words.
 
 - **Special Rules / Game Rules** A rule that you can or can not play with in any given UNO game.
 - **Game Modes**  Modes you have to play with that change a lot of the gameplay from a normal game
-- **Direction of Play** The direction in which players are playing. For example `A - B - C - A` or `A - C - B - A.`            
-
+- **Direction of Play** The direction in which players are playing. For example `A - B - C - A` or `A - C - B - A.`
 
 ## What is UNO?
 UNO is a card game where, players race to empty their hands and catch opposing players with cards left in 
