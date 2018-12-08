@@ -37,7 +37,7 @@ export default [
         ]
     },
     {
-        name: "Custom Game Modes",
+        name: "Custom Game Modes and Rules",
         children: [
             {
                 name: "Cumulate v2",
@@ -67,6 +67,10 @@ export default [
                 name: "Twos",
                 path: "/twos"
             },
+            {
+                name: "Battle Royale",
+                path: "/battle-royale"
+            }
         ]
     },
 ]
