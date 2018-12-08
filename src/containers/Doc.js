@@ -16,7 +16,7 @@ const Doc = () => (
               <title>{`${title} | ${repoName}`}</title>
             </Head>
             <Markdown source={markdown} />
-            <div>
+            <div style={{paddingTop: '2em'}}>
               <a href={editPath}>Edit this page on Github</a>
             </div>
           </Sidebar>

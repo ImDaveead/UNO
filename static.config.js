@@ -45,7 +45,7 @@ export default {
             getData: () => ({
               markdown: fs.readFileSync(path.resolve(page.markdownSrc), 'utf8'),
               editPath:
-                repoURL + path.join('/blob/master/', __dirname.split('/').pop(), page.markdownSrc),
+                repoURL + path.join('/blob/master/', page.markdownSrc),
               title: page.title,
             }),
           })
