@@ -15,7 +15,7 @@ of play after Player B.
 When Player A plays a Draw 2, then Player B plays another Draw 2, then Player C must draw 16 cards, since 
 four to the power of two is 16. Play would resume with the next player in the direction of play after Player C. 
 If Player C had another Draw 2 and played it, then the next player in the direction of play would have to draw 
-thirty six cards, since six to the power of two is thirty six. \\ \\
+thirty six cards, since six to the power of two is thirty six.
 
 When Player A plays a Draw 4, then Player B plays another Draw 4, then Player C would have to draw 64 cards, 
 since 8 to the power of two is 64. If you run out of cards, shuffle the discard pile except for the top card,

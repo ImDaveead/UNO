@@ -10,7 +10,7 @@ with the UNO 7-0 rule, then the Ace will have the same effect as the 0 card.
 ## Balancing the Game
 If you want the same amount of cards as a standard UNO deck, then you will need 2 sets of cards, 
 preferably the same color and brand, so you can't tell the difference, and something to hold all 
-the cards in, because a regular card deck case will not hold all the cards. \\ \\
+the cards in, because a regular card deck case will not hold all the cards.
 
 To make this deck, you will need 4 Jokers, 4 Kings of any suit, 8 Queens with 2 from each suit, 
 8 Jacks with 2 from each suit, 8 Jacks with 2 from each suit, 8 10 Cards with 2 from each suit, 
